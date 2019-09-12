@@ -1,0 +1,1381 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="SynchManager" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f9f85c0f-a435-4400-beea-d2b36e5bab1c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/ApiBuilder.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/ApiBuilder.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/libs/DatabaseClient.jar" beforeDir="false" afterPath="$PROJECT_DIR$/libs/DatabaseClient.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/command/CommandSocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/command/CommandSocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/command/CommandSocketHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/command/CommandSocketHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/command/interfaces/ICommandSocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/command/interfaces/ICommandSocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/database/DatabaseManagerSocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/database/DatabaseManagerSocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/error/ErrorManagerSocket.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/error/ErrorManagerSocket.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/Alive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/Alive.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/interfaces/IAlive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/interfaces/IAlive.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/ConnectRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/ConnectRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/interfaces/IConnectRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/interfaces/IConnectRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/ConnectResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/ConnectResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/interfaces/IConnectResponse.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/interfaces/IConnectResponse.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/ImAlive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/ImAlive.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/interfaces/IImAlive.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/interfaces/IImAlive.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/message/SynchMessage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/message/SynchMessage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/message/interfaces/ISynchMessage.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/message/interfaces/ISynchMessage.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/Queue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/Queue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/interfaces/IQueue.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/interfaces/IQueue.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/udp/UdpHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/udp/UdpHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/watchdog/AliveWatchdog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/watchdog/AliveWatchdog.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/synchmanager/watchdog/ConnectWatchdog.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/synchmanager/watchdog/ConnectWatchdog.kt" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="SynchManager" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/MessageParser.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="620">
+              <caret line="37" column="80" lean-forward="true" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
+              <folding>
+                <element signature="e#37#657#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/SynchManagerRunner.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="32" column="20" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/udp/UdpHandler.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+              <folding>
+                <element signature="e#26#529#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/command/CommandSocketHandler.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-247">
+              <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+              <folding>
+                <element signature="e#30#359#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/message/SynchMessage.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/database/DatabaseManagerSocketHandler.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="272">
+              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+              <folding>
+                <element signature="e#31#181#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/Queue.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+              <folding>
+                <element signature="e#28#192#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Kotlin File" />
+        <option value="Kotlin Enum" />
+        <option value="Kotlin Object" />
+        <option value="Kotlin Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>proper</find>
+      <find>import</find>
+      <find>bind</find>
+      <find>Synchronized</find>
+      <find>Starting synch socket on synchPort</find>
+      <find>.toLowerCase()</find>
+      <find>(&quot;</find>
+      <find>Identification</find>
+      <find>getInterface</find>
+      <find>Requesting my IP address in network</find>
+      <find>MyIp</find>
+      <find>MyIpAddress</find>
+      <find>interface</find>
+      <find>todo</find>
+      <find>Response</find>
+      <find>responseMessage</find>
+      <find>UpdateCommand</find>
+      <find>ImAS</find>
+      <find>ConnectRequest</find>
+      <find>.ConnectRequest</find>
+      <find>.IpAddress</find>
+      <find>.put(</find>
+      <find>SlaveInformation.IpAddress.name</find>
+      <find>enumstorage.slave.SlaveInformation</find>
+      <find>etAllIpAddresses</find>
+      <find>identification</find>
+      <find>getPort</find>
+      <find>outgoingPort</find>
+      <find>MasterInformation.IpAddress</find>
+      <find>while (tr</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>licenseId: String</replace>
+      <replace>it</replace>
+      <replace>jsonObject</replace>
+      <replace>* @see</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\mgraf\IdeaProjects\NLC\SynchManager\src\main\resources\interface</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/database/interfaces/IDatabaseManagerSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/error/interfaces/IErrorManagerSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/error/interfaces/IErrorManagerSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/watchdog/watchdog.properties" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/properties/WatchdogProperties.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/MessageTimestampStorage.kt" />
+        <option value="$PROJECT_DIR$/src/main/resources/update.properties" />
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/Header.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/MessageTimestampWatchdog.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/timestamp/interfaces/IMessageTimestampWatchdog.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/UpdateInformation.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/Main.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/command/interfaces/ICommandSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/udp/interfaces/IUdpHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/master/MasterHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/master/interfaces/IMasterHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/error/ErrorManagerSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/database/interfaces/IDatabaseManagerSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/database/DatabaseManagerSocketHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/ConnectResponseHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/interfaces/IConnectResponseHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/ImAliveHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/interfaces/IImAliveHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/timestamp/MessageTimestampWatchdog.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/AliveHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/interfaces/IAliveHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/ConnectRequestHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/interfaces/IConnectRequestHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/MessageParser.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/SynchManagerRunner.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/command/interfaces/ICommandSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/command/CommandSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/database/DatabaseManagerSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/error/ErrorManagerSocket.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/interfaces/IQueue.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/Queue.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/message/SynchMessage.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/message/interfaces/ISynchMessage.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/interfaces/IAlive.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/watchdog/AliveWatchdog.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/interfaces/IConnectRequest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/ConnectRequest.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/watchdog/ConnectWatchdog.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/ConnectResponse.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/interfaces/IConnectResponse.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/Alive.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/ImAlive.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/interfaces/IImAlive.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/udp/UdpHandler.kt" />
+        <option value="$PROJECT_DIR$/src/main/kotlin/synchmanager/command/CommandSocketHandler.kt" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="libs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="synchmanager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="synchmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="command" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="synchmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="database" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="synchmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="error" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="synchmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="master" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="synchmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="messagehandler" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="synchmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="udp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="synchmanager" type="462c0819:PsiDirectoryNode" />
+              <item name="watchdog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SynchManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SynchManager" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1567630300111" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.kotlinCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\SynchManager\src\main\resources\interface" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\SynchManager\src\main\resources\master" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\SynchManager\src\main\resources\ports" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\SynchManager\src\main\resources\watchdog" />
+    </key>
+    <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
+      <recent name="synchmanager" />
+      <recent name="synchmanager.command" />
+      <recent name="synchmanager.properties.interfaces" />
+      <recent name="synchmanager.properties" />
+      <recent name="synchmanager.synch" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="synchmanager.messagehandler.timestamp" />
+      <recent name="synchmanager.database" />
+      <recent name="synchmanager.error" />
+      <recent name="synchmanager.watchdog" />
+      <recent name="synchmanager.messagehandler" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\SynchManager\libs" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\SynchManager\src\main\kotlin\synchmanager\error" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\SynchManager\src\main\kotlin\synchmanager\database" />
+      <recent name="C:\Users\mgraf\IdeaProjects\NLC\SynchManager\src\main\resources" />
+      <recent name="C:\Users\graf\IdeaProjects\SynchManager\libs" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Kotlin.synchmanager.MainKt">
+    <configuration name="LicenseManager [buildDependents]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="buildDependents" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LicenseManager [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="build" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="LicenseManager [jar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="jar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="licensemanager.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="LicenseManager_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="licensemanager.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="synchmanager.MainKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="SynchManager_main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="synchmanager.MainKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Gradle.LicenseManager [buildDependents]" />
+      <item itemvalue="Gradle.LicenseManager [build]" />
+      <item itemvalue="Gradle.LicenseManager [jar]" />
+      <item itemvalue="Kotlin.licensemanager.MainKt" />
+      <item itemvalue="Kotlin.synchmanager.MainKt" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Kotlin.synchmanager.MainKt" />
+        <item itemvalue="Kotlin.licensemanager.MainKt" />
+        <item itemvalue="Gradle.LicenseManager [jar]" />
+        <item itemvalue="Gradle.LicenseManager [build]" />
+        <item itemvalue="Gradle.LicenseManager [buildDependents]" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f9f85c0f-a435-4400-beea-d2b36e5bab1c" name="Default Changelist" comment="" />
+      <created>1549491038156</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1549491038156</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Database Handler running. Need to be tested">
+      <created>1549579231979</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549579231979</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Check Expiration function fixed">
+      <created>1549634454822</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1549634454822</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Bug fixing">
+      <created>1549643588968</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1549643588968</updated>
+    </task>
+    <task id="LOCAL-00004" summary="- Bugfixing&#10;- Error handling improved">
+      <created>1549818991932</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1549818991932</updated>
+    </task>
+    <task id="LOCAL-00005" summary="- Bug fixing&#10;- socket - client communication over JSON&#10;- JavaDoc added (not completely)">
+      <created>1549840022511</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1549840022511</updated>
+    </task>
+    <task id="LOCAL-00006" summary="JavaDoc added">
+      <created>1549906012163</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1549906012163</updated>
+    </task>
+    <task id="LOCAL-00007" summary="JavaDoc Bugfixing">
+      <created>1549908266084</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1549908266084</updated>
+    </task>
+    <task id="LOCAL-00008" summary="- JavaDoc added&#10;- Bug fixing&#10;- Server socket communication encrypted with salt&#10;- Server socket communication with JSON now">
+      <created>1549922923968</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1549922923970</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Javadoc changed">
+      <created>1549924071475</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1549924071475</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Bugfix">
+      <created>1552297474523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1552297474523</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Watchdog implementation for Alive messages&#10;Refactoring&#10;Improvements">
+      <created>1552473089377</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1552473089377</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Watchdog implementation for Timestamps&#10;Improvements">
+      <created>1552479488248</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1552479488248</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Improvements">
+      <created>1552479930979</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1552479930979</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Implementation of interfaces">
+      <created>1553093994912</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1553093994912</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Connection between Masters now manually but also automatically with new Watchdog possible">
+      <created>1554998239865</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1554998239865</updated>
+    </task>
+    <task id="LOCAL-00016" summary="libs updated">
+      <created>1555160732576</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1555160732576</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Bugfixing">
+      <created>1556878275540</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1556878275541</updated>
+    </task>
+    <task id="LOCAL-00018" summary="- Synch timestamps added&#10;- Message timestamp watchdog added">
+      <created>1559770893042</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1559770893042</updated>
+    </task>
+    <task id="LOCAL-00019" summary="IP Address handler started to implement">
+      <created>1559772505272</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1559772505272</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Refactored for adding as JAR to backend application">
+      <created>1560371160839</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1560371160839</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Json object interface added">
+      <created>1560377468657</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1560377468657</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Interface properties removed">
+      <created>1560377603711</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1560377603711</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Interface properties added for MyInterface">
+      <created>1560379258467</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1560379258467</updated>
+    </task>
+    <task id="LOCAL-00024" summary="Refactoring">
+      <created>1560533383123</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1560533383123</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Runner added">
+      <created>1560720865951</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1560720865951</updated>
+    </task>
+    <task id="LOCAL-00026" summary="Refactoring">
+      <created>1560980790360</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1560980790360</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Refactoring">
+      <created>1561235050009</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1561235050025</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Refactoring finished">
+      <created>1561486228093</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1561486228093</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Bugfixing">
+      <created>1561491130576</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1561491130576</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Bugfixing">
+      <created>1561579581563</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1561579581563</updated>
+    </task>
+    <task id="LOCAL-00031" summary="Refactoring - Ongoing&#10;&#10;See TODO's">
+      <created>1563910073039</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1563910073039</updated>
+    </task>
+    <task id="LOCAL-00032" summary="Merge">
+      <created>1563910129831</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1563910129831</updated>
+    </task>
+    <task id="LOCAL-00033" summary="Bugfixing &amp; Refactoring">
+      <created>1565197634106</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1565197634106</updated>
+    </task>
+    <option name="localTasksCounter" value="34" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22867803" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" sideWeight="0.4989339" weight="0.3261105" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" sideWeight="0.49946696" weight="0.32885906" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49946696" weight="0.49295774" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3286334" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50053304" side_tool="true" weight="0.2885906" />
+      <window_info anchor="bottom" id="Version Control" order="10" weight="0.32936078" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32944915" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.28304905" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+      <window_info anchor="right" id="Maven" order="9" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.30415756" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="0" weight="0.3286334" />
+      <window_info anchor="bottom" id="Message" order="1" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="3" visible="true" weight="0.3231106" />
+      <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.329718" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" weight="0.32944915" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Build" order="11" weight="0.32944915" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.5743983" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="JavaDoc Bugfixing" />
+    <MESSAGE value="- JavaDoc added&#10;- Bug fixing&#10;- Server socket communication encrypted with salt&#10;- Server socket communication with JSON now" />
+    <MESSAGE value="Javadoc changed" />
+    <MESSAGE value="Bugfix" />
+    <MESSAGE value="Watchdog implementation for Alive messages&#10;Refactoring&#10;Improvements" />
+    <MESSAGE value="Watchdog implementation for Timestamps&#10;Improvements" />
+    <MESSAGE value="Improvements" />
+    <MESSAGE value="Implementation of interfaces" />
+    <MESSAGE value="- Notification handler added" />
+    <MESSAGE value="Basic communication function &quot;User UI &lt;--&gt; Master &lt;--||--&gt; Master &lt;--&gt; User UI&quot; implemented&#10;&#10;-&gt; Masters can be added via Command socket&#10;-&gt; Masters send Alive messages to all connected Masters&#10;-&gt; Updates timestamps for each master when receiving an incoming ImAlive message&#10;-&gt; Master adds a remote master when receiving a Connect messages, and sends&#10;its own connection information in a response&#10;-&gt; The connected user will be informed when a new master have been connected or timed out" />
+    <MESSAGE value="Connection between Masters now manually but also automatically with new Watchdog possible" />
+    <MESSAGE value="libs updated" />
+    <MESSAGE value="- Synch timestamps added&#10;- Message timestamp watchdog added" />
+    <MESSAGE value="IP Address handler started to implement" />
+    <MESSAGE value="Refactored for adding as JAR to backend application" />
+    <MESSAGE value="Json object interface added" />
+    <MESSAGE value="Interface properties removed" />
+    <MESSAGE value="Interface properties added for MyInterface" />
+    <MESSAGE value="Runner added" />
+    <MESSAGE value="Refactoring" />
+    <MESSAGE value="Refactoring finished" />
+    <MESSAGE value="Bugfixing" />
+    <MESSAGE value="Refactoring - Ongoing&#10;&#10;See TODO's" />
+    <MESSAGE value="Merge" />
+    <MESSAGE value="Bugfixing &amp; Refactoring" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bugfixing &amp; Refactoring" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="236">
+          <caret line="36" column="15" selection-start-line="36" selection-start-column="15" selection-end-line="36" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/enums/SynchRequest.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/enums/SynchResponse.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/timestamp/MessageTimestampStorage.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/timestamp/interfaces/IMessageTimestampWatchdog.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/Header.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/interfaces/ISynchronisation.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/UpdateInformation.kt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/Main.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="62" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/EnumStorage.jar!/enumstorage/network/NetworkCommand.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/command/interfaces/ICommandSocketHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/master/Master.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="6" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/PropertyStorage.jar!/propertystorage/MasterProperties.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/udp/interfaces/IUdpHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/master/MasterHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="102" column="29" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/master/interfaces/IMasterHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/database/interfaces/IDatabaseManagerSocketHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/error/ErrorManagerSocketHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/ConnectResponseHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding>
+            <element signature="e#53#461#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/interfaces/IConnectResponseHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/ImAliveHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="31" selection-start-line="6" selection-start-column="31" selection-end-line="6" selection-end-column="31" />
+          <folding>
+            <element signature="e#45#219#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/interfaces/IImAliveHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#56#119#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/AliveHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="11" column="24" selection-start-line="11" selection-start-column="24" selection-end-line="11" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/interfaces/IAliveHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#54#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/ConnectRequestHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="36" selection-start-line="7" selection-start-column="36" selection-end-line="7" selection-end-column="36" />
+          <folding>
+            <element signature="e#52#301#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/interfaces/IConnectRequestHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="14" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="14" />
+          <folding>
+            <element signature="e#63#126#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/timestamp/MessageTimestampWatchdog.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/command/interfaces/ICommandSocket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/command/CommandSocket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/database/DatabaseManagerSocket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="64" column="66" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/error/ErrorManagerSocket.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="61" column="38" selection-start-line="61" selection-start-column="38" selection-end-line="61" selection-end-column="38" />
+          <folding>
+            <element signature="e#28#523#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/interfaces/IQueue.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/message/interfaces/ISynchMessage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/interfaces/IAlive.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/watchdog/AliveWatchdog.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="59" selection-end-line="32" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/interfaces/IConnectRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/watchdog/ConnectWatchdog.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="34" column="71" selection-start-line="34" selection-start-column="71" selection-end-line="34" selection-end-column="71" />
+          <folding>
+            <element signature="e#31#418#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/interfaces/IConnectResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectResponse/ConnectResponse.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#53#311#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/alive/Alive.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#43#278#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/connectRequest/ConnectRequest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="e#52#307#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/interfaces/IImAlive.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/imAlive/ImAlive.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="18" selection-start-line="8" selection-start-column="18" selection-end-line="8" selection-end-column="18" />
+          <folding>
+            <element signature="e#45#279#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/libs/ApiBuilder.jar!/apibuilder/synch/SynchMessageItem.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="20" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/SynchManagerRunner.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="32" column="20" selection-start-line="32" selection-start-column="8" selection-end-line="32" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/queue/Queue.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+          <folding>
+            <element signature="e#28#192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/MessageParser.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="620">
+          <caret line="37" column="80" lean-forward="true" selection-start-line="37" selection-start-column="80" selection-end-line="37" selection-end-column="80" />
+          <folding>
+            <element signature="e#37#657#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/database/DatabaseManagerSocketHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+          <folding>
+            <element signature="e#31#181#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/messagehandler/message/SynchMessage.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="39" lean-forward="true" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/udp/UdpHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="28" column="67" selection-start-line="28" selection-start-column="67" selection-end-line="28" selection-end-column="67" />
+          <folding>
+            <element signature="e#26#529#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/synchmanager/command/CommandSocketHandler.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-247">
+          <caret line="18" column="7" lean-forward="true" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="e#30#359#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>SynchManager</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Kotlin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>SynchManager</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Gradle: org.jetbrains.kotlin:kotlin-stdlib-common:1.2.71</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
